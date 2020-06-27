@@ -1,0 +1,178 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown {
+    margin: 10px;
+}
+
+.colorText{
+    color: #3C5A67;
+}
+/* one more attempt to fix the issue */
+.center{
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    place-items: center;
+    vertical-align: middle;
+    line-height: 100%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    right: 50%;
+}
+
+.littleIcon{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-github {
+    color: black;
+}
+.blink_me {
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+#typeText{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 100vh;
+    animation: type 2s steps(30);
+    word-wrap: normal;
+    hyphens: auto;
+    /* overflow: hidden; */
+    /* white-space:nowrap; */
+}
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:30ch;
+    }
+}
+
+
+#fullpage section {
+    min-height: 100vh;    
+}
+
+.skillRow{
+    /* margin-top: 100vh; */
+    
+}
+
+.skillBox{
+    margin-top: 50px;
+    padding-left: 60px;
+    /* padding-right: 15px; */
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    margin-bottom: 10px;
+    
+}
+
+
+/* portfolio page hover magic */
+/* make invisible words in center of img's */
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+/*when hover over card make picture fade*/
+.imgfade:hover .img{
+    opacity: 0.25;
+}
+/* when hover over card make words in middle become visible */
+ .imgfade:hover .middle{
+    opacity: 1;
+    font-weight: bold;
+    color: black;
+}
+
+/* Portfolio cards center on page and padding */
+.imgfade {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* Home and contact elements center and bottom margin */
+.centerpad{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* remove blue color from link text */
+p {
+    color: black;
+}
+
+.whiteText {
+    color: white;
+}
+
+ .topMarg{
+    margin-top: 50px;
+}
+
+.pgHeader {
+    padding-top: 25px;
+}
+
+#fullpage section:nth-child(1)
+{
+    background: #3C5A67;
+    /* background: #008E9B; */
+    /* background: #4F4571; */
+}
+
+#fullpage section:nth-child(2)
+{
+    /* background: #51AE9F; */
+    background: whitesmoke;
+}
+
+#fullpage section:nth-child(3)
+{
+    /* background: #4F4571; */
+    background: #3C5A67;
+
+}
+
+#fullpage section:nth-child(4)
+{
+    /* background: #0081CF; */
+    background: whitesmoke;
+}
+
+#fullpage section:nth-child(5)
+{
+    /* background: #008E9B; */
+    background: #3C5A67;
+
+}
