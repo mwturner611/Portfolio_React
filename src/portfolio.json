@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "liveLink":"https://hows-it-growing.herokuapp.com/",
+        "img":"howsitgrowing.JPG",
+        "description":"This app allows you to give your plants the TLC they deserve (and not die)",
+        "github":"https://github.com/mwturner611/Hows_It_Growing"
+    },
+    {
+        "id":2,
+        "liveLink":"https://mwturner611.github.io/Weather-Dashboard/",
+        "img":,
+        "description":,
+        "github":
+    },
+    {
+        "id":3,
+        "liveLink": ,
+        "img":,
+        "description":,
+        "github":,
+    },
+    {
+        "id":4,
+        "liveLink": ,
+        "img":,
+        "description":,
+        "github":,
+    },
+    {
+        "id":5,
+        "liveLink": ,
+        "img":,
+        "description":,
+        "github":,
+    },
+    {
+        "id":6,
+        "liveLink": ,
+        "img":,
+        "description":,
+        "github":,
+    },
+
+
+]
